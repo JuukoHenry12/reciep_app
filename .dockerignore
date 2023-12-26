@@ -1,0 +1,9 @@
+#GIT
+.git
+.gitnore
+
+#virtual enviroment
+.env
+.venv
+env
+venv

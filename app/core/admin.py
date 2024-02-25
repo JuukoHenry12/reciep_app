@@ -36,7 +36,8 @@ class UserAdmin(BaseUserAdmin):
                      'password2',
                      'name',
                      'is_active',
-                     'is_staff'
+                     'is_staff',
+                     'is_superuser'
                  }
             }
         )
@@ -44,3 +45,4 @@ class UserAdmin(BaseUserAdmin):
 
 admin.site.register(models.User, UserAdmin)
 admin.site.register(models.Recipe)
+admin.site.register(models.Tag)
